@@ -502,6 +502,27 @@ steps:
                   - columnCounter: 10058315-c3ac-498d-bbf6-b0938af02a7f
                     stepCounter: b0ea7fe4-1845-4278-b596-f74dcbd9d838
                 transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 24afe3f2-d234-451e-9e51-a416ec1d8de5
+              stepCounter: 6a9188d8-70e6-4dd9-8366-a1bed1b50a6e
+            config: {}
+            dataType: varchar(1)
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: Extract
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: "'Y'"
+            systemColumnType: None
+            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
