@@ -544,6 +544,27 @@ steps:
                 transform: "'Y'"
             systemColumnType: None
             transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 666ffc67-ce3a-4f7d-ace4-a9a35ecfdb91
+              stepCounter: 6a9188d8-70e6-4dd9-8366-a1bed1b50a6e
+            config: {}
+            dataType: timestamp
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: NewColumn1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: CURRENT_DATE()
+            systemColumnType: None
+            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
