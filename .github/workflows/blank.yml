@@ -28,7 +28,7 @@ jobs:
     - run: npx coa --version
 
     # Create Deployment Plan
-    - run: npx coa plan --config COA_CONFIG --out ./coa-plan --debug
+    - run: npx coa plan --config COA_CONFIG --profile production --out ./coa-plan --debug
 
     # Deploy Plan
-    - run: npx coa deploy --config COA_CONFIG --plan ./coa-plan --debug
+    - run: npx coa deploy --config COA_CONFIG --profile production  --plan ./coa-plan --debug
