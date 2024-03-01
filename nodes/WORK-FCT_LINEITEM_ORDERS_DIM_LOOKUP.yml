@@ -523,6 +523,27 @@ steps:
                 transform: "'Y'"
             systemColumnType: None
             transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 28a3b30c-9816-4b0c-bbaf-f9477ab448f9
+              stepCounter: 6a9188d8-70e6-4dd9-8366-a1bed1b50a6e
+            config: {}
+            dataType: varchar(1)
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: NewColumn
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: "'Y'"
+            systemColumnType: None
+            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
