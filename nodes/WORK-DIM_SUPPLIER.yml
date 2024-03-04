@@ -239,6 +239,27 @@ steps:
             sourceColumnReferences:
               - columnReferences: []
                 transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 04f74882-43ef-49ee-9299-7788265a6568
+              stepCounter: f388b6ff-c15f-4aec-84c8-881912243c39
+            config: {}
+            dataType: varchar(10)
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: PARA_STRING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: "'{{parameters.my_strings}}'"
+            systemColumnType: None
+            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:

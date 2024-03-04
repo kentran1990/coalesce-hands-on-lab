@@ -1,11 +1,11 @@
 defaultStorageMapping: WORK
 installedPackages: {}
 jobs:
-  Job-1:
+  Job-4:
     excludeSelector: ""
-    id: 1
-    includeSelector: "+{ location: WORK name: FCT_LINEITEM_ORDERS_DIM_LOOKUP }"
-    name: New Job
+    id: 4
+    includeSelector: "{name: STG*}"
+    name: Stages
     steps: []
     subgraphs: []
 locations:
@@ -1956,4 +1956,8 @@ subgraphs:
     name: New Subgraph
     steps:
       - 6a9188d8-70e6-4dd9-8366-a1bed1b50a6e
+      - 27cb5a8f-15ec-405d-b041-fa31f5d2af24
+      - b1488d67-09c8-42a2-980e-17695d1263fb
+      - 27cb5a8f-15ec-405d-b041-fa31f5d2af24
+      - b1488d67-09c8-42a2-980e-17695d1263fb
 version: 2
